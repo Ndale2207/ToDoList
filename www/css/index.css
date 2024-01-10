@@ -1,0 +1,57 @@
+[data-role="page"] {
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+[data-role="header"] {
+    text-align: center;
+    background-color: #2980b9;
+    color: white;
+}
+
+.ui-content {
+    padding: 20px 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="button"] {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #2471a3;
+}
+
+#list,
+#listDone {
+    list-style: none;
+    padding: 0;
+}
+
+#list li,
+#listDone li {
+    background-color: #fff;
+}
+
+[data-role="footer"] {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2980b9;
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
